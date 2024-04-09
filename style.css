@@ -1,0 +1,155 @@
+body {
+	font-family: "Lora", serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: rgba(240, 240, 240, 1.0);
+	color: #000000;
+	margin: none;
+}
+
+div {
+	background: white;
+}
+
+h1 {
+	font-family: "Roboto", sans-serif;
+  font-weight: 425;
+	letter-spacing: 0.5px;
+	font-size: 44px;
+	line-height: 60px;
+}
+
+h2 {
+	font-family: Calibri;
+	color: #7D7C7C;
+	font-size: 26px;
+	font-weight: 360;
+}
+
+a {
+	font-family: Calibri;
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: rgb(200, 200, 200, 1.0);
+	text-decoration: none;
+}
+
+.container {
+	width: 1200px;
+	margin: 40px auto;
+	background-color: rgba(240, 240, 240, 1.0);
+}
+
+@media (max-width: 1260px) {
+  .container {
+    width: 1000px;
+  #mateo-circle {
+  	width: 17%;
+  }
+	}
+}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 800px;
+  #mateo-circle {
+  	width: 22%;
+  }
+	}
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  #mateo-circle {
+  	width: 27%;
+  }
+	}
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  #mateo-circle {
+  	width: 35%;
+  }
+	}
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 500px;
+  #mateo-circle {
+  	width: 45%;
+  }
+	}
+}
+
+#mateo-circle {
+	border-radius: 50%;
+	width: 15%;
+	border: 2px solid #0A0B0D;
+}
+
+#introduction {
+	margin-bottom: 40px;
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	margin: 10px 100px 10px 100px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 50, .2);
+}
+
+.btn-coinbase {
+	font-family: "Roboto", sans-serif;
+	color: white;
+  font-weight: 425;
+	letter-spacing: 0.5px;
+	background-color: #0A0B0D;
+	transition: background-color 0.3s ease;
+	padding: 15px 30px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	box-shadow: 0 13px 35px rgba(54, 113, 241, .1);
+}
+
+.btn-coinbase:hover {
+	color: white;
+	background-color: #001033;
+	text-decoration: none;
+}
+
+#follow-white {
+	color: white;
+}
+
+#contacts-black {
+	color: white;
+	background-color: #0A0B0D;
+	margin-top: 60px;
+	outline: 10px solid #0A0B0D;
+	padding: 0px 60px 200px 60px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 40px;
+}
+
+.list-inline li {
+  display: inline; 
+  padding: 20px 20px 10px 20px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
